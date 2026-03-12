@@ -20,8 +20,6 @@ This is my first real dive into vibecoding, which allowed me to bridge what I en
 
 Built with Streamlit, Google Gmail API, and Google Sheets API.
 
-![Gmail Organiser](Program preview.png)
-
 ---
 
 ## Project Structure
