@@ -6,7 +6,7 @@
 
 ## About This Project
 
-I'm not a coder by trade - I studied Business and Political Science. This is my first real Python project. I'm not claiming to be an expert, nor am I a product developer. This is simply an experiment rooted in solving a problem for myself and others who may need this.
+I'm not a coder by trade - my background covers Business and Political Science. Having recently learned the basics of Python, this is my first real project. A disclaimer: I'm not a computing expert, nor am I a product developer. This is simply a personal experiment rooted in solving a problem for myself and others who prefer a clean Gmail inbox without having to manually manage it, which is an arduous process.
 
 ### Built with Vibecoding
 
