@@ -8,6 +8,14 @@
 
 I'm not a coder by trade - I studied Business and Political Science. This is my first real Python project. I'm not claiming to be an expert, nor am I a product developer. This is simply an experiment rooted in solving a problem for myself and others who may need this.
 
+### Built with Vibecoding
+
+This project was built using **vibecoding** - a new way of building software where I describe what I want in plain language, and AI tools like [OpenCode](https://opencode.ai) write the actual code for me.
+
+Think of it like pair programming, but instead of a human developer, I'm working with an AI assistant. I explain the problem, AI suggests solutions, we iterate together, and eventually something working emerges.
+
+It's not about knowing all the syntax or being an expert - it's about understanding what you want to build and communicating that clearly. The AI handles the technical heavy lifting.
+
 Built with Streamlit, Google Gmail API, and Google Sheets API.
 
 ---
