@@ -8,13 +8,9 @@
 
 I'm not a coder by trade - my background covers Business and Political Science. Having recently learned the basics of Python, this is my first real project. A disclaimer: I'm not a computing expert, nor am I a product developer. This is simply a personal experiment rooted in solving a problem for myself and others who prefer a clean Gmail inbox without having to manually manage it, which is an arduous process.
 
-### Built with Vibecoding
+### My Introduction to Vibecoding
 
-This project was built using **vibecoding** - a new way of building software where I describe what I want in plain language, and AI tools like [OpenCode](https://opencode.ai) write the actual code for me.
-
-Think of it like pair programming, but instead of a human developer, I'm working with an AI assistant. I explain the problem, AI suggests solutions, we iterate together, and eventually something working emerges.
-
-It's not about knowing all the syntax or being an expert - it's about understanding what you want to build and communicating that clearly. The AI handles the technical heavy lifting.
+This is my first real dive into vibecoding - the ability to bridge what I envisioned with my lack of technical expertise. I'm not smarter than anyone viewing this, I'm simply inquisitive and willing to try. Vibecoding allowed me to bring this idea to life without needing years of coding experience.
 
 Built with Streamlit, Google Gmail API, and Google Sheets API.
 
