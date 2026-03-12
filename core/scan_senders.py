@@ -8,11 +8,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_FILE = os.path.join(BASE_DIR, 'config.yaml')
 STATE_FILE = os.path.join(BASE_DIR, 'state.json')
 
-from src.auth import get_gmail_service, get_sheets_service
-from src.gmail_client import list_message_ids, get_message_metadata, modify_labels, trash_message, create_label, delete_labels_with_prefix
-from src.sheets_client import get_all_rows, write_rows, format_senders_tab, add_dropdown_validation, create_instructions_tab, ensure_sheet_exists
-from src.classify_senders import classify_sender
-from src.ai_classifier import classify_sender_ai
+from app.auth import get_gmail_service, get_sheets_service
+from app.gmail_client import list_message_ids, get_message_metadata, modify_labels, trash_message, create_label, delete_labels_with_prefix
+from app.sheets_client import get_all_rows, write_rows, format_senders_tab, add_dropdown_validation, create_instructions_tab, ensure_sheet_exists
+from core.classify_senders import classify_sender
+from core.ai_classifier import classify_sender_ai
 
 def load_state():
     if os.path.exists(STATE_FILE):

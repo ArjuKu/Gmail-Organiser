@@ -16,6 +16,31 @@ Built with Streamlit, Google Gmail API, and Google Sheets API.
 
 ---
 
+## Project Structure
+
+```
+gmail-organiser/
+├── app/                    # Main application code
+│   ├── app.py             # Streamlit user interface
+│   ├── auth.py            # Google OAuth authentication
+│   ├── gmail_client.py    # Gmail API operations
+│   └── sheets_client.py   # Google Sheets API operations
+├── core/                  # Core business logic
+│   ├── scan_senders.py    # Scans inbox, groups by sender
+│   ├── apply_senders.py   # Applies decisions to Gmail
+│   ├── classify_senders.py # Keyword classification
+│   └── ai_classifier.py   # AI classification (optional)
+├── config/                # Configuration files
+│   └── config.template.yaml
+├── docs/                  # Documentation
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── run_app.bat           # Double-click to launch (Windows)
+```
+
+---
+
 ## Features
 
 - **AI Classification** - Automatically categorises emails by sender (Promotions, Social, Updates, Personal, etc.)
@@ -51,7 +76,7 @@ pip install -r requirements.txt
 ```
 
 ### Step 3: Configure
-1. Copy `config.template.yaml` to `config.yaml`
+1. Copy `config/config.template.yaml` to `config/config.yaml`
 2. Fill in your details:
    - `user_email`: Your Gmail address
    - `token`: Your HuggingFace token (optional)
@@ -65,7 +90,7 @@ pip install -r requirements.txt
 
 ### Step 5: Run
 ```bash
-python -m streamlit run src/app.py
+python -m streamlit run app/app.py
 ```
 
 Or double-click `run_app.bat` (Windows)

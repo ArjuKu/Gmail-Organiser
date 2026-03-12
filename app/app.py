@@ -145,7 +145,7 @@ if scan_btn:
     pbar.progress(10)
     
     try:
-        from src.scan_senders import run_scan_senders
+        from core.scan_senders import run_scan_senders
         result = run_scan_senders(force_full_scan=force_scan, clean_old_labels=clean_labels, progress_callback=lambda p, m: pbar.progress(min(p, 100)))
         pbar.progress(100)
         if result and result.get('success'):
@@ -163,7 +163,7 @@ if apply_btn:
     pbar.progress(10)
     
     try:
-        from src.apply_senders import run_apply_senders
+        from core.apply_senders import run_apply_senders
         result = run_apply_senders(progress_callback=lambda p, m: pbar.progress(min(p, 100)))
         pbar.progress(100)
         if result:

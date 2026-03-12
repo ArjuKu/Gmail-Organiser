@@ -5,9 +5,9 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_FILE = os.path.join(BASE_DIR, 'config.yaml')
 
-from src.auth import get_gmail_service, get_sheets_service
-from src.gmail_client import list_message_ids, get_message_metadata, modify_labels, trash_message, create_label
-from src.sheets_client import get_all_rows, write_status_only
+from app.auth import get_gmail_service, get_sheets_service
+from app.gmail_client import list_message_ids, get_message_metadata, modify_labels, trash_message, create_label
+from app.sheets_client import get_all_rows, write_status_only
 
 TYPE_TO_LABEL = {
     'Promotions': 'AO/Promotions',
