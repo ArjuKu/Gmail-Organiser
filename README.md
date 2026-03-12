@@ -20,6 +20,8 @@ This is my first real dive into vibecoding, which allowed me to bridge what I en
 
 Built with Streamlit, Google Gmail API, and Google Sheets API.
 
+<img width="1535" height="851" alt="Image" src="https://github.com/user-attachments/assets/393ab2dd-c698-4297-a259-6af224260b51" />
+
 ---
 
 ## Project Structure
