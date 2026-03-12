@@ -111,6 +111,8 @@ Or double-click `run_app.bat` (Windows)
 2. **Review** - Check the Google Sheet, make decisions (Keep, Label, Trash)
 3. **Apply** - Click "Apply Decisions" to execute your choices
 
+<img width="1299" height="836" alt="Image" src="https://github.com/user-attachments/assets/b71c713d-ac72-4a27-90bc-1e8484e1f751" />
+
 ---
 
 ## Tech Stack
