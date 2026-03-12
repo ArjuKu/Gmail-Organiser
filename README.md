@@ -16,9 +16,11 @@ I'm not a coder by trade - my background covers Business and Political Science. 
 
 ### My Introduction to Vibecoding
 
-This is my first real dive into vibecoding, which allowed me to bridge what I envisioned with my lack of technical expertise. So if there are any experienced software/product developers looking at this, I'd really appreciate your feedback!
+This is my first real dive into vibecoding, which allowed me to bridge what I envisioned with my lack of technical expertise. So if any experienced software/product developers are looking at this, I'd really appreciate your feedback!
 
 Built with Streamlit, Google Gmail API, and Google Sheets API.
+
+![Gmail Organiser](Program preview.png)
 
 ---
 
