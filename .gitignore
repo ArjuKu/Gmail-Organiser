@@ -1,0 +1,11 @@
+# Sensitive files - DO NOT UPLOAD
+credentials.json
+token.json
+config.yaml
+state.json
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/
+*.log
+.env

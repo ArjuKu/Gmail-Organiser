@@ -1,0 +1,25 @@
+# CONFIGURATION TEMPLATE
+# Copy this file to config.yaml and fill in your values
+
+gmail:
+  user_email: "your-email@gmail.com"
+  search_query: "in:anywhere"
+  label_namespace: "AO/"
+  delete_older_than_days: 90
+  max_results: 500
+
+huggingface:
+  # Get your token from https://huggingface.co/settings/tokens
+  token: "YOUR_HUGGINGFACE_TOKEN_HERE"
+
+sheets:
+  # Create a Google Sheet and paste the ID here (from the URL)
+  spreadsheet_id: "YOUR_SPREADSHEET_ID_HERE"
+  tabs:
+    senders: "Senders"
+
+safety:
+  protect_starred: true
+  protect_primary_starred: true
+  allow_archive: false
+  allow_mark_read: false
