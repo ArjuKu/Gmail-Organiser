@@ -6,11 +6,17 @@
 
 ## About This Project
 
-I'm not a coder by trade - my background covers Business and Political Science. Having recently learned the basics of Python, this is my first real project. A disclaimer: I'm not a computing expert, nor am I a product developer. This is simply a personal experiment rooted in solving a problem for myself and others who prefer a clean Gmail inbox without having to manually manage it, which is an arduous process.
+“The only thing worse than a funny bone is an ugly inbox.”
+
+Fourteen years with Gmail taught me that Google’s filters are equivalent to using a butter knife when I need onions chopped. Same sender, new address? Still slips through. Unsubscribe link? A placebo. Labels? You're stuck making your own. I finally snapped and developed a script that does three things Gmail still won’t: it bulk-deletes every message from anyone who ever spammed me, spots the same sender even when they swap addresses, and pops up a yes/no on each label so I can dump the dead weight.
+
+I call it Gmail Organiser. If your inbox feels like a storage unit you’re afraid to open, it can be yours too.
+
+I'm not a coder by trade - my background covers Business and Political Science. Having recently learned the basics of Python, this is my first real project. A disclaimer: I'm not a computing expert, nor am I a product developer. This is simply a personal experiment to solve a problem for myself and others who prefer a clean Gmail inbox without having to manage it manually.
 
 ### My Introduction to Vibecoding
 
-This is my first real dive into vibecoding - the ability to bridge what I envisioned with my lack of technical expertise. I'm not smarter than anyone viewing this, I'm simply inquisitive and willing to try. Vibecoding allowed me to bring this idea to life without needing years of coding experience.
+This is my first real dive into vibecoding, which allowed me to bridge what I envisioned with my lack of technical expertise. So if there are any experienced software/product developers looking at this, I'd really appreciate your feedback!
 
 Built with Streamlit, Google Gmail API, and Google Sheets API.
 
